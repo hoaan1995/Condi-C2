@@ -1,0 +1,18 @@
+name=plan
+description=shows plan
+admin=false
+reseller=false
+vip=false
+================== END ==================
+<<$clear>>
+[38;5;91mUSERNAME: [38;5;231m<<$username>>
+[38;5;91mEXPIRY: [38;5;231m<<$daysleft>> - Day(s)
+[38;5;91mBOOTTIME: [38;5;231m<<$maxtime>> Second(s)
+[38;5;91mTOTAL ATTACKS: [38;5;231m<<$mysent>>
+[38;5;91mCOOLDOWN: [38;5;231m<<$cooldown>>
+[38;5;91mRESELLER: [38;5;231m<<$reseller>>
+[38;5;91mVIP: [38;5;231m<<$vip>>
+[38;5;91mBYPASS: [38;5;231m<<$bypassblacklist>>
+[38;5;91mCONCURRENTS: [38;5;231m<<$conrurrents>>
+[38;5;91mSESSIONS: [38;5;231m<<$maxsessions>>
+[38;5;91mADMIN: [38;5;231m<<$admin>>

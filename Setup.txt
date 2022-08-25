@@ -1,0 +1,49 @@
+CONDI C2 TUTORIAL
+
+// Install php, mysql, ssh2
+// For API
+apt-get install php-cli -y
+apt-get install libssh2-1 php-ssh2 -y
+apt-get install php libapache2-mod-php php-mysql -y
+apt-get install apache2-utils -y
+apt-get install php-mysql php-curl php-json php-cgi php -y
+apt-get install libssh2 -y
+apt-get install curl libcurl3 libcurl3-dev -y
+apt-get install libssh2–1-dev libssh2–1 -y
+service apache2 restart
+
+// INSTALL MYSQL SERVER
+apt-get install mysql-server -y
+apt-get install mysql-client -y
+mysql_secure_installation
+
+1. Please Make Sure Your Server Is Updated
+   . If Your Server Is Updated, Please Download MySQL For Your Server
+     . Make Sure To Set It Up Properly and To Keep Your Password
+
+2. Once MySQL Is Download Please Start It And Login...
+   . "mysql -u root -pYOURPASSWORD
+
+3. Once You Have Signed In, Copy and Paste These Commands
+
+Note : Please Leave Out The Quotations [" "]
+
+CREATE DATABASE `cnc`;
+CREATE USER 'zxcr9999'@'localhost' IDENTIFIED BY 'zxcr9999123';
+GRANT ALL PRIVILEGES ON * . * TO 'zxcr9999'@'localhost';
+FLUSH PRIVILEGES;
+exit;
+
+
+
+Extra Help :
+
+1. Install Screen Ex "apt install screen -y"
+
+2. Run These Commands
+
+chmod 777 *
+screen ./start
+
+Default Port Is "9999"
+Connect Using "SSH"

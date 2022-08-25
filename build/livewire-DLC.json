@@ -1,0 +1,15 @@
+{
+     "TableGradient" : {
+          "Status" : true,
+          "GradientOne" : "08F7FE",
+          "GradientTwo" : "FF10F0"
+     },
+
+     "TitleSpinner" : {
+          "Active" : true,
+          "Position" : "front",
+          "Frames" : [
+               "[-]", "[\\]", "[|]", "[/]"
+          ]
+     }
+}

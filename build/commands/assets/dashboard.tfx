@@ -1,0 +1,10 @@
+name=dashboard
+description=dashboard
+admin=false
+reseller=false
+vip=false
+================== END ==================
+<<$clear>>
+[38;5;91mAttacks Sent: [38;5;231m<<$sent>>
+[38;5;91mAttacks You've Sent: [38;5;231m<<$mysent>>
+[38;5;91mGlobal Users: [38;5;231m<<$id>>
